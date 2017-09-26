@@ -1,0 +1,26 @@
+server:
+  port: 8080
+fixedDelay: 5000
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: test
+          contentType: text/plain
+          #contentType: application/json
+
+#Rabbitmq configuration
+  rabbitmq:
+    host: 192.168.99.100
+    #host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.99.100:8761/eureka/
