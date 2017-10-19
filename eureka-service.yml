@@ -7,14 +7,9 @@ spring:
 
 eureka:
   instance:
-<<<<<<< Updated upstream
-    #hostname: 192.168.99.100
-    hostname: localhost
-=======
    # hostname: 192.168.99.100
     hostname: 192.168.99.101
   #  hostname: localhost
->>>>>>> Stashed changes
   client:
     registerWithEureka: false
     fetchRegistry: false
