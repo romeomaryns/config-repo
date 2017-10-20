@@ -1,9 +1,9 @@
 spring:
   cloud:
     config:
-      name: data-log
+      name: log-service
     stream:
       bindings:
         input:
-          destination: xformed
+          destination: prices
 
