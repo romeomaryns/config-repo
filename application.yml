@@ -11,7 +11,7 @@ eureka:
 spring:
   cloud:
     stream:
-      defaultBinder=rabbit
+      defaultBinder: rabbit
 spring:
   rabbitmq:
         hostname: 192.168.99.100
