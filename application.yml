@@ -19,3 +19,10 @@ spring:
         port: 5672
         username: guest
         password: guest
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
