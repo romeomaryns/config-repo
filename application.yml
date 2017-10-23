@@ -12,6 +12,10 @@ spring:
   cloud:
       stream:
         defaultBinder: rabbit
+  zipkin:
+    locator:
+      discovery:
+        enabled: true
   rabbitmq:
         host: 192.168.99.100
          #hostname: 192.168.99.101
