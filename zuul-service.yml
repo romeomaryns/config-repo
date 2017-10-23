@@ -9,3 +9,4 @@ zuul:
    zuul-service: /self/**
    price-service: /prices/**
    instrument-service: /instruments/**
+   candle-service: /candles/**
