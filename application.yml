@@ -42,4 +42,4 @@ ribbon:
   eureka:
     enabled: true
 hystrix:
-  enabled: false
+  enabled: true
