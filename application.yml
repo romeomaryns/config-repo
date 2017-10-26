@@ -40,6 +40,12 @@ endpoints:
     sensitive: false
 ribbon:
   eureka:
-    enabled: true
+    enabled: false
 hystrix:
-  enabled: true
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 60000
