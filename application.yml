@@ -39,8 +39,10 @@ endpoints:
   health:
     sensitive: false
 ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 60000
   eureka:
-    enabled: false
+    enabled: true
 hystrix:
   command:
     default:
