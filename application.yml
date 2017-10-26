@@ -42,7 +42,7 @@ endpoints:
 ribbon:
   eureka:
     enabled: false
-  listOfServers: 192.168.99.100
+  #listOfServers: 192.168.99.100
   ServerListRefreshInterval: 15000
   ConnectTimeout: 3000
   ReadTimeout: 60000
