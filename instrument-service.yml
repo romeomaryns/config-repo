@@ -10,3 +10,6 @@ spring:
           contentType: application/json
 ribbon:
   DeploymentContextBasedVipAddresses: instrument-service
+insrument-service:
+  eureka:
+    NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList

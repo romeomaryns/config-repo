@@ -40,7 +40,6 @@ endpoints:
   health:
     sensitive: false
 ribbon:
-  NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
   eureka:
     enabled: true
   ConnectTimeout: 3000
