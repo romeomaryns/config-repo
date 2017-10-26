@@ -8,8 +8,3 @@ spring:
           destination: instruments
           #contentType: text/plain
           contentType: application/json
-ribbon:
-  DeploymentContextBasedVipAddresses: instrument-service
-insrument-service:
-  eureka:
-    NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
