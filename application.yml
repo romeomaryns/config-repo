@@ -40,10 +40,9 @@ endpoints:
   health:
     sensitive: false
 ribbon:
+  NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
   eureka:
-    enabled: false
-  listOfServers: 192.168.99.100:80,192.168.99.100:80
-  ServerListRefreshInterval: 15000
+    enabled: true
   ConnectTimeout: 3000
   ReadTimeout: 60000
 hystrix:

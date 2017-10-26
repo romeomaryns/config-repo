@@ -9,5 +9,4 @@ spring:
           #contentType: text/plain
           contentType: application/json
 ribbon:
-  eureka:
-    enabled: true
+  DeploymentContextBasedVipAddresses: instrument-service
