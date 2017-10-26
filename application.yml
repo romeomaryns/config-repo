@@ -40,6 +40,6 @@ endpoints:
     sensitive: false
 ribbon:
   eureka:
-    enabled: false
+    enabled: true
 hystrix:
   enabled: false
