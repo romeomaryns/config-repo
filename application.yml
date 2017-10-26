@@ -40,10 +40,12 @@ endpoints:
   health:
     sensitive: false
 ribbon:
+  eureka:
+    enabled: false
+  listOfServers: docker,192.168.99.100
+  ServerListRefreshInterval: 15000
   ConnectTimeout: 3000
   ReadTimeout: 60000
-  eureka:
-    enabled: true
 hystrix:
   command:
     default:
