@@ -4,6 +4,13 @@ spring:
   cloud:
     config:
       name: zuul-service
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
 zuul:
  routes:
    zuul-service: /self/**
