@@ -7,5 +7,7 @@ spring:
 zuul:
   routes:
     price-service: /prices/**
-    instrument-service: /instruments/**
+    instrument-service:
+      path: /instruments/**
+      url: http://docker/instruments/
     candle-service: /candles/**
