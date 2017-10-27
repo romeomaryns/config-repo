@@ -5,6 +5,6 @@ spring:
     stream:
       bindings:
         output:
-          destination: instruments
+          destination: candles
           #contentType: text/plain
           contentType: application/json

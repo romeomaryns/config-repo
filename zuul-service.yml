@@ -8,5 +8,5 @@ zuul:
  routes:
    zuul-service: /self/**
    price-service: /prices/**
-   instrument-service: /instruments/**
+   instrument-service: /candles/**
    candle-service: /candles/**
