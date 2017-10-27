@@ -41,6 +41,3 @@ endpoints:
 ribbon:
   eureka:
     enabled: false
-instrument-service:
-  ribbon:
-    listOfServers: 192.168.99.100
