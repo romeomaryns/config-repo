@@ -10,4 +10,4 @@ zuul:
     instrument-service:
       path: /instruments/**
       serviceId: instrument-service
-   candle-service: /candles/**
+    candle-service: /candles/**
