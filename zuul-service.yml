@@ -5,7 +5,9 @@ spring:
     config:
       name: zuul-service
 zuul:
- routes:
-   price-service: /prices/**
-   instrument-service: /instruments/**
+  routes:
+    price-service: /prices/**
+    instrument-service:
+      path: /instruments/**
+      serviceId: instrument-service
    candle-service: /candles/**
