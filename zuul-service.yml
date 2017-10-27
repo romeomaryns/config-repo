@@ -7,5 +7,5 @@ spring:
 zuul:
  routes:
    price-service: /prices/**
-   instrument-service: /candles/**
+   instrument-service: /instruments/**
    candle-service: /candles/**
