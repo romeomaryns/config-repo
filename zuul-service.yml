@@ -6,8 +6,12 @@ spring:
       name: zuul-service
 zuul:
   routes:
-    price-service: /prices/**
+    price-service:
+      path: /prices/**
+      url: http://192.168.99.100/prices/
     instrument-service:
       path: /instruments/**
       url: http://192.168.99.100/instruments/
-    candle-service: /candles/**
+    candle-service:
+      path: /candles/**
+      url: http://192.168.99.100/candles/
