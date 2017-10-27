@@ -3,7 +3,7 @@ logging:
     org.springframework.security: INFO
 eureka:
   instance:
-    prefer-ip-address: false
+    prefer-ip-address: true
   client:
     fetchRegistry: true
     serviceUrl:
