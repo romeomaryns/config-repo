@@ -4,15 +4,8 @@ spring:
   cloud:
     config:
       name: zuul-service
-endpoints:
-  restart:
-    enabled: true
-  shutdown:
-    enabled: true
-  health:
-    sensitive: false
 zuul:
  routes:
    price-service: /prices/**
-   instrument-service: /instruments/**
+   instrument-service: /candles/**
    candle-service: /candles/**
