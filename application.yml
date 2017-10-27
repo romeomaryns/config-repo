@@ -31,5 +31,4 @@ spring:
     hibernate:
       ddl-auto: create-drop
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
-      dialect: org.hibernate.dialect.PostgreSQLDialect
-ribbon.eureka.enabled: false
+      dialect: org.hibernate.dialect.PostgreSQLDialects
