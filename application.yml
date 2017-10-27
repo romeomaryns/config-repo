@@ -35,3 +35,5 @@ spring:
 ribbon:
   eureka:
     enabled: false
+hystrix:
+  enabled: false
