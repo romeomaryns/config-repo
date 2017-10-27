@@ -13,15 +13,6 @@ endpoints:
     sensitive: false
 zuul:
  routes:
-    zuul-service:
-      path: /self/**
-      serviceId: zuul-service
-    price-service:
-      path: /prices/**
-      serviceId: price-service
-    instrument-service:
-      path: /instruments/**
-      serviceId: instrument-service
-    candle-service:
-      path: /candles/**
-      serviceId: candle-service
+   price-service: /prices/**
+   instrument-service: /instruments/**
+   candle-service: /candles/**
