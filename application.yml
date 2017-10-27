@@ -43,4 +43,4 @@ ribbon:
     enabled: false
 instrument-service:
   ribbon:
-    listOfServers: 192.168.99.100:80
+    listOfServers: 192.168.99.100:8080
