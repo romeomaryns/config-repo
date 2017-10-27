@@ -32,3 +32,6 @@ spring:
       ddl-auto: create-drop
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
       dialect: org.hibernate.dialect.PostgreSQLDialects
+ribbon:
+  eureka:
+    enabled: false
