@@ -14,19 +14,19 @@ zuul:
       url: http://192.168.99.100:35000/
     instrument-service:
       path: /instrument/**
-      url: http://192.168.99.100:25000/instruments/
+      url: http://192.168.99.100:25000/instrument/
     candle-service:
-      path: /candle/**
-      url: http://192.168.99.100:25001/candles/
+      path: /candles/**
+      url: http://192.168.99.100:25001/candle/
     order-service:
-      path: /order/**
-      url: http://192.168.99.100:25002/orders/
+      path: /orders/**
+      url: http://192.168.99.100:25002/order/
     account-service:
-      path: /account/**
-      url: http://192.168.99.100:25003/accounts/
+      path: /accounts/**
+      url: http://192.168.99.100:25003/account/
     price-service:
-      path: /price/**
-      url: http://192.168.99.100:25004/prices/
+      path: /prices/**
+      url: http://192.168.99.100:25004/price/
     position-service:
-      path: /position/**
-      url: http://192.168.99.100:25005/positions/
+      path: /positions/**
+      url: http://192.168.99.100:25005/position/
