@@ -1,12 +1,12 @@
 server:
-  port: 25004
+  port: 25003
 spring:
   cloud:
     config:
-      name: price-service
+      name: account-service
     stream:
       bindings:
         output:
-          destination: prices
+          destination: accounts
           #contentType: text/plain
           contentType: application/json
