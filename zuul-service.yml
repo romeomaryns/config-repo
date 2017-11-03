@@ -14,7 +14,7 @@ zuul:
       url: http://192.168.99.100:35000/
     instrument-service:
       path: /instruments/**
-      url: http://192.168.99.100:25000/
+      url: http://192.168.99.100:25000/instruments/
     candle-service:
       path: /candles/**
       url: http://192.168.99.100:25001/
