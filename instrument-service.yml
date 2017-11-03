@@ -14,3 +14,8 @@ spring:
           destination: instruments-to-save
          # contentType: text/plain
           contentType: application/json
+  data:
+    neo4j:
+      username: neo4j
+      password: neo4j
+      url: bolt://192.168.99.100
