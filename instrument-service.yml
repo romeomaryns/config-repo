@@ -18,4 +18,4 @@ spring:
     neo4j:
       username: instruments
       password: instruments
-      url: bolt://192.168.99.100:7678
+      url: http://192.168.99.100:7474
