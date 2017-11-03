@@ -17,5 +17,5 @@ spring:
   data:
     neo4j:
       username: neo4j
-      password: neo4j
+      password: admin
       url: bolt://192.168.99.100
