@@ -16,6 +16,6 @@ spring:
           contentType: application/json
   data:
     neo4j:
-      username: instruments
-      password: instruments
-      url: http://192.168.99.100:7474
+      username: neo4j
+      password: admin
+      url: bolt://192.168.99.100:7474
