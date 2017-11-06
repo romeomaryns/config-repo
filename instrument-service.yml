@@ -1,9 +1,10 @@
 server:
+  address: localhost
   port: 25000
   session:
     cookie:
       http-only: false
-      path: /ui /
+      path: /
 spring:
   cloud:
     config:
