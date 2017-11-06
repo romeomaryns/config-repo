@@ -50,4 +50,4 @@ zuul:
       url: http://192.168.99.100:8761/
     vaadinServlet:
       path: /vaadinServlet/**
-      url: http://192.168.99.100:25000/
+      url: http://192.168.99.100:25000/vaadinServlet/
