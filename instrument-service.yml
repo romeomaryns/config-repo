@@ -3,6 +3,7 @@ server:
   session:
     cookie:
       http-only: false
+      path: /ui /
 spring:
   cloud:
     config:
