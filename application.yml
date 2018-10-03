@@ -37,3 +37,6 @@ ribbon:
     enabled: false
 hystrix:
   enabled: false
+
+test:
+  enabled: true
